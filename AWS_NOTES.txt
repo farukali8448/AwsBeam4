@@ -1,0 +1,102 @@
+    
+   Amazon Elastic Compute Cloud (Amazon EC2 )
+
+   Amazon Elastic compute cloud (Amazon EC2) Amazon Elastic Compute cloud (Amazon EC2) provides secure,
+   resizable compute capacity in the cloud as Amazon instances.
+
+
+
+   HOW AMAZON EC2 WORKS?
+
+    1. Launch--->
+                First, you launch an intance.Begin by selecting a template with basic configurations for you instance.
+                these configuratons include the operating system,application server, or applications.You also select the 
+                instance type,which is the specific hardware configuration of your intance.
+
+                As you are preparing to launch an instance,you specify secure setting to control the network traffic that 
+                can flow into and out of your intance.later in this course ,we will explore Amazon EC2 security features 
+                in greater detail.
+
+    2. Connect---->
+                Next,connect to the intance.You can connect to the instance in several ways.You are programs and applications 
+                have multiple different methods to connect directly to the instance and exchange data. Users can also connect 
+                to the instants the computer desktop.
+
+
+    3. Use------->
+               After you have connected to the instance,you can being using it.You can run commands to intall software,add storage,
+               copy and organize files and more.
+
+
+
+
+    ----------------------------------------------------------------------------------------->
+
+     Multi-tenancy-->
+                     EC2 runs on top of physical host machines managed by AWS using virtualization technology.when you spin 
+                     up an EC2 instance,you are not necessarly taking an entire host to yourself.instead,you are sharing the 
+                     host with multiple other instances,otherwise known as virtuals machines. and a hypervisor running on the 
+                     host machine is responsible for sharing the underlying physical resources between the virtual machines. 
+    
+    ------------------------------------------------------------------------------------------>
+
+
+
+
+   General purpose instances provide a balance of compute,memory and networking resources.you can them for a variety of workloads,
+   such as:
+
+
+   1. Application servers
+   2. Gaming servers
+   3. Backend servers for enterprise applications
+   4. Small and medium databases
+
+  ---------------------------------------------------------------------------------------------------------------------------
+   Compute optimized instances are ideal for compute-bound applications that benefit from high-performance processors.Like general purpose
+   instances, you can use compute optimized instances for workloads such as web,application and gaming servers.
+  ----------------------------------------------------------------------------------------------------------------------------
+
+
+  ----------------------------------------------------------------------------------------------------------------------------
+  Memory optimized instances are designed to deliver fast performance for workloads that process large datasets in memory.in computing,memory
+  is a temporarystorage area.it holds all the data and instructions that a central processing unit(CPU) needs to be able to complete actions.
+  before a computer program or application is able to run,it is loaded from storage into memory.this preloading process gives the CPU direct 
+  acess to the computer program.
+  ----------------------------------------------------------------------------------------------------------------------------
+
+
+  --------------------------------------------------------------------------------------------------------------------------
+  accelerated computing instances use hardware accelerators,or coprocessors, to perform some functions more efficiently than is possible in 
+  software running on CPUs.examples of these functions include floating-point number calculations,graphics processing, and data pattern matching.
+
+
+  storage optimized instances are designed for workloads that require high,sequential read and write access to large datasets on local storage.
+  examples of workloads suitable for storage optimized instances include distributed file systems,data warehousing applications and high-frequency 
+  online transation processing (01.TP) systems.
+  ------------------------------------------------------------------------------------------------------------------------------
+  
+
+  
+ ------------------------------------------------------------------------------------------------------------------------------
+ on-demad instances are ideal for short-term,irregular workloads that cannot be interrupted.no upfront costs or minimum contracts apply.the instances run 
+ continuouly untill you stop them,and you pay for only the compute time you use.
+ ------------------------------------------------------------------------------------------------------------------------------
+
+
+  -----------------------------------------------------------------------------------------------------------------------------
+  reserved instances are billing discount applied to the use of on-demand instances in your account,and these are suited for steady-state workloads or ones
+  with predicates usage. you can purchase standard reserved and convertible reserved instances for a 1 years or 3 years term and scheduled reserved instances 
+  for a 1 year term.you realize greater cost saving with the 3-years option.
+  ----------------------------------------------------------------------------------------------------------------------------
+  
+
+
+ 
+   
+      
+               
+                
+                
+
+   
